@@ -12,10 +12,13 @@ body{
   -webkit-text-fill-color: transparent;
 }
 .own-button{
-    background: -webkit-linear-gradient(#00d2ff,#3a7bd5);
+    background: -webkit-linear-gradient(#284FFB,#3a7bd5);
 }
 .innovative{
     background: -webkit-linear-gradient(green, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.hero-btn{
+    background: -webkit-linear-gradient(#284FFB,#3a7bd5);
 }
