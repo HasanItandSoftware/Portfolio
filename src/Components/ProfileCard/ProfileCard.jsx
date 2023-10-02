@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import profile from "../SliderImages/profile.jpg"
 import founder from "../SliderImages/founder.png"
 import { CiFacebook,CiTwitter,CiInstagram } from "react-icons/ci";
 function ProfileCard() {
