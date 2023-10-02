@@ -5,6 +5,7 @@ import Services_item from '../Services/Services_item'
 import Choose from '../Choose/Choose'
 import Location from '../Location/Location'
 import Banner from '../Banner/Banner'
+import ProfileCard from '../ProfileCard/ProfileCard'
 function MainPage() {
   return (
     <>
@@ -12,6 +13,7 @@ function MainPage() {
     <Hero />
     <Services_item />
     <Choose />
+    <ProfileCard />
     <Location />  
     </>
   )
