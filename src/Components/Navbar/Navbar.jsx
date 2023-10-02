@@ -17,7 +17,7 @@ function Navbar() {
         <li><Link to="/services">Project</Link></li>
         </ul>
       </div>
-      <Link to="/" className="btn btn-ghost normal-case rounded-sm" style={{fontSize: "28px"}}>Hasan it and software</Link>
+      <Link to="/" className="btn btn-ghost normal-case rounded-sm" style={{fontSize: "28px"}}>Hasan It & Software</Link>
     </div>
     <div className="navbar-end hidden lg:flex">
       <ul className="menu menu-horizontal px-1">

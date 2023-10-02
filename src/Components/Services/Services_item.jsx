@@ -22,7 +22,7 @@ function Services_item() {
     
   return (
     <div>
-        <h1 className='font-bold text-6xl underline pl-12 pb-12' data-aos="fade-right">Services</h1>
+        <h1 className='font-bold text-center text-6xl underline pl-12 pb-12' data-aos="fade-right">Our <span className='choose'>Services</span></h1>
         <div className='flex gap-14 justify-center pt-4'>
         {
             services.map(service => <Services services={service} key={service.id}></Services>)

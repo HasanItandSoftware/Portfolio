@@ -1,10 +1,15 @@
-import React from "react";
-
+/* eslint-disable no-unused-vars */
+import React, { useEffect } from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 function Location() {
+  useEffect(() => {
+    Aos.init({duration : 3000})
+  })
   return (
     <div>
       <div className="pb-">
-      <h1 className="text-6xl font-bold underline-offset-3 underline text-center">Our <span className="choose">Location</span></h1>
+      <h1 data-aos="zoom-up" className="text-6xl font-bold underline-offset-3 underline text-center">Our <span className="choose" >Location</span></h1>
       </div>
       <div className="p-12">
       <iframe
